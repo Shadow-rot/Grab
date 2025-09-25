@@ -15,10 +15,7 @@ RUN apt-get update && apt-get upgrade -y && \
     util-linux \
     libffi-dev \
     libjpeg-dev \
-    libjpeg62-turbo-dev \
     libwebp-dev \
-    neofetch \
-    php-pgsql \
     python3-lxml \
     postgresql \
     postgresql-client \
