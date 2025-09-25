@@ -53,8 +53,8 @@ RUN apt-get update && apt-get upgrade -y && \
 RUN pip install --upgrade pip setuptools
 
 # Clone the bot repo
-RUN git clone https://github.com/Shadow-rot/Grab /root/Waifubot
-WORKDIR /root/Waifubot
+RUN git clone https://github.com/Shadow-rot/Grab /root/Grab
+WORKDIR /root/Grab
 
 # Install Python dependencies
 RUN pip install -U -r requirements.txt
