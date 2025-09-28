@@ -16,18 +16,18 @@ logging.getLogger('httpx').setLevel(logging.WARNING)
 logging.getLogger("pyrate_limiter").setLevel(logging.ERROR)
 LOGGER = logging.getLogger(__name__)
 
-OWNER_ID = "5116239739"
-sudo_users = ["5116239739", "6590287973"]
-GROUP_ID = "-1002010986967"
-TOKEN = "6770670571:AAFiM9-vMtWJMic2L4OUZEZs39l_hOvZO_o"
+OWNER_ID = "5147822244"
+sudo_users = ["5147822244", "8172157480"]
+GROUP_ID = "-1002059929123"
+TOKEN = "7891572866:AAGxHInquTfmwRgJo4NWjnP7I6GHTPUdKc4"
 mongo_url = "mongodb+srv://tiwarireeta004:peqxLEd36RAg7ors@cluster0.furypd3.mongodb.net/?retryWrites=true&w=majority"
 PHOTO_URL = ["https://telegra.ph/file/a17bbdf36197b0f0eb2c1.jpg", "https://telegra.ph/file/4754711cd88be32baf5b4.jpg", "https://telegra.ph/file/46b1151c6088fabc62250.jpg", "https://telegra.ph/file/4ed692d4e678216f87083.jpg"]
-SUPPORT_CHAT = "welovewesimp"
-UPDATE_CHAT = "Anime Girl trade and Gift"
-BOT_USERNAME = "Seducer_charm_bot"
-CHARA_CHANNEL_ID = "-1002010986967"
-api_id = "20457610"
-api_hash = "b7de0dfecd19375d3f84dbedaeb92537"
+SUPPORT_CHAT = "anime_cafe_00"
+UPDATE_CHAT = "anime_cafe_00"
+BOT_USERNAME = "waifukunbot"
+CHARA_CHANNEL_ID = "-1002059929123"
+api_id = "23664800"
+api_hash = "1effa1d4d80a7b994dca61b1159834c9"
 
 application = Application.builder().token(TOKEN).build()
 Grabberu = Client("Grabber", api_id, api_hash, bot_token=TOKEN)
