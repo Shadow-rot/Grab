@@ -26,8 +26,8 @@ SUPPORT_CHAT = "anime_cafe_00"
 UPDATE_CHAT = "anime_cafe_00"
 BOT_USERNAME = "waifukunbot"
 CHARA_CHANNEL_ID = "-1002059929123"
-api_id = "23664800"
-api_hash = "1effa1d4d80a7b994dca61b1159834c9"
+api_id = "17944283"
+api_hash = "03f2f561ca86def71fe88d3ae16ed529"
 
 application = Application.builder().token(TOKEN).build()
 Grabberu = Client("Grabber", api_id, api_hash, bot_token=TOKEN)
